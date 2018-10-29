@@ -47,20 +47,26 @@ connection.connect(function (err) {
                 name: "quantity"
             }
         ]).then(function (purchase) {
-            var query1 = "SELECT quantity, product_name FROM products WHERE ?";
+            var query1 = "SELECT quantity,product_name,price FROM products WHERE ?";
             var purchased = purchase.quantity;
             var quantity = connection.query(query1, {
                 id: purchase.itemId
             }, function (err, res) {
                 if (err) throw err;
+                var itemPrice = res[0].price;
                 var quantityInt = res[0].quantity;
                 var productName = res[0].product_name;
                 if (purchased <= quantityInt) {
                     var total = quantityInt - purchased;
+                    console.log("\n");
+                    console.log("Final Checkout Total: " + itemPrice * purchased + " Dollars");
+                    console.log("------------------------");
                     // console.log(quantityInt);
                     // console.log(purchased);
                     // console.log(total);
                     console.log("Enjoy Your Brand New " + productName + "!")
+                    console.log("------------------------");
+                    
                     var sql = "UPDATE products SET ? WHERE ?";
                     var query = connection.query(sql,
                         [{
@@ -72,11 +78,13 @@ connection.connect(function (err) {
                             }
                         ],
                     )
-                    console.log('Thank You For Your Purchase!');
+                    console.log('Thank You For Your Purchase');
+                    console.log("\n");
                     connection.end();
                 }
                 if (purchased > quantityInt) {
                     console.log("We Only Have " + quantityInt + " Left!")
+                    console.log("------------------------\n");
                     connection.end();
                 }
             })
