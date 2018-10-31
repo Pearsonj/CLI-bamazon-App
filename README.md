@@ -20,7 +20,6 @@ Finally We Are Shown The Amount We Pay And A Thank You:
 But Wait...What If We Don't Have That Many To Sell? Well This Happens!
 ![not enough](notenough.PNG)
 
-This app is very simple, but it displays my ability to make query requests to manipulate my database! Thanks for stopping by!
 
 
 
