@@ -20,6 +20,11 @@ Finally We Are Shown The Amount We Pay And A Thank You:
 But Wait...What If We Don't Have That Many To Sell? Well This Happens!
 ![not enough](notenough.PNG)
 
+Here are some pictures showing the update in action:</br>
+![pic](proof.PNG)
+![pic](proof2.PNG)
+![pic](proof3.PNG)
+
 
 
 
