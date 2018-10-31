@@ -25,6 +25,10 @@ Here are some pictures showing the update in action:</br>
 ![pic](proof2.PNG)
 ![pic](proof3.PNG)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11c28387b2a43fe750d6b73bb189350450ff3baa
 
 
 
