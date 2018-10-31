@@ -25,6 +25,7 @@ Here are some pictures showing the update in action:</br>
 ![pic](screenshots/proof2.PNG)
 ![pic](screenshots/proof3.PNG)
 
+Thank You For Checking Out My Fun Little CLI App!
 
 
 
