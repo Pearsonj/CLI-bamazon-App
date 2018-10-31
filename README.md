@@ -18,7 +18,7 @@ Finally We Are Shown The Amount We Pay And A Thank You:
 ![purchased](purchasecapture.PNG)
 
 But Wait...What If We Don't Have That Many To Sell? Well This Happens!
-
+![not enough](notenough.PNG)
 
 
 
