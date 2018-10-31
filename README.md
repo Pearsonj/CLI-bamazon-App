@@ -3,32 +3,29 @@
 Welcome to my mock amazon CLI app. Bamazon! (Original I know). This CLI app simulates a customer purchasing items from a web store and then updating the MySQL Database on the backend that our products are stored in. 
 
 So first we run the app with node:</br>
-![command line](nodecapture.PNG)
+![command line](screenshots/nodecapture.PNG)
 
 Then We Are Shown All Our Products:</br>
-![items list](Capture.PNG)
+![items list](screenshots/Capture.PNG)
 
 After That We Are Prompted To Enter The ID Of The Item We Want To Purchase:</br>
-![enterID](idcapture.PNG)
+![enterID](screenshots/idcapture.PNG)
 
 Then The Amount You Would Like:</br>
-![quantity](idquantitycapture.PNG)
+![quantity](screenshots/idquantitycapture.PNG)
 
 Finally We Are Shown The Amount We Pay And A Thank You:
-![purchased](purchasecapture.PNG)
+![purchased](screenshots/purchasecapture.PNG)
 
 But Wait...What If We Don't Have That Many To Sell? Well This Happens!
-![not enough](notenough.PNG)
+![not enough](screenshots/notenough.PNG)
 
 Here are some pictures showing the update in action:</br>
-![pic](proof.PNG)
-![pic](proof2.PNG)
-![pic](proof3.PNG)
+![pic](screenshots/proof.PNG)
+![pic](screenshots/proof2.PNG)
+![pic](screenshots/proof3.PNG)
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 11c28387b2a43fe750d6b73bb189350450ff3baa
 
 
 
