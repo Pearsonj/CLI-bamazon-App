@@ -11,6 +11,16 @@ Then We Are Shown All Our Products:</br>
 After That We Are Prompted To Enter The ID Of The Item We Want To Purchase:</br>
 ![enterID](idcapture.PNG)
 
+Then The Amount You Would Like:</br>
+![quantity](idquantitycapture.PNG)
+
+Finally We Are Shown The Amount We Pay And A Thank You:
+![purchased](purchasecapture.PNG)
+
+
+
+
+
 
 
 
