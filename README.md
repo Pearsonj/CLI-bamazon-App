@@ -1,4 +1,4 @@
-# bamazon application
+# Bamazon application
 
 Welcome to my mock amazon CLI app. Bamazon! (Original I know). This CLI app simulates a customer purchasing items from a web store and then updating the MySQL Database on the backend that our products are stored in. 
 
